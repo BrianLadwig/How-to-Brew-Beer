@@ -1,0 +1,54 @@
+header {
+    background-image: url("./images/photo-1613946515176-904e3e38ed6f.jpeg");
+    position: relative;
+    color:aliceblue;
+     height: 200px;
+    width: 100%;
+    text-align: center;
+      
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #111213;
+    
+}
+
+.tr-img img{
+    height: 400px;
+    width: 500px;
+}
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    color: rgb(102, 31,22);
+    font-weight: 800;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
+.text   {
+        font-size: 24px; 
+        line-height: 24px;
+         padding: 5px; 
+         border-radius: 20px; 
+         font-family: Georgia, serif; 
+         font-weight: normal; 
+         text-decoration: none; 
+         font-style: normal; 
+         font-variant: normal; 
+         text-transform: none; 
+         background-image: linear-gradient(to right, rgb(214, 146, 44) 0%, rgb(212, 189, 126) 50%, rgb(214, 146, 44) 100%); 
+         box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+         border: 2px solid rgb(100, 6, 6);
+          display: inline-block;}
+        .text:hover {
+        background: #1C6EA4; }
+        .text:active {
+        background: #144E75; }
